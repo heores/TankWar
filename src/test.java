@@ -73,7 +73,7 @@ public class test extends Frame  implements ActionListener {
 	static AudioClip aau; 
 	static {
 		
-		File f = new File("bj.aif");  
+		File f = new File("bj.wav");  
 		try {
 			cb = f.toURL();
 		} catch (MalformedURLException e) {
